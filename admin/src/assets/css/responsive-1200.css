@@ -1,0 +1,51 @@
+/* RESPONSIVE MAX-WIDTH TILL 1200PX */
+@media(max-width:1200px){
+  /* PROGRAM PAGE */
+  .landing-banner .section-header{
+   font-size: 20px;
+   padding: 20px 15px 10px 15px;
+  }
+  .landing-banner .content{
+   padding: 20px 20px 20px 20px;
+  }
+
+  .landing-banner .program-speaker-list-img{
+   max-width: 40px;
+  }
+  .btn-program-collapse{
+   padding: 5px 15px;
+  }
+
+  .program-collapsed-content{
+   padding: 0px 0px 15px 15px;
+  }
+
+  .program-collapsed-content ul li{
+   padding: 20px 0px 20px 15px;
+  }
+
+  .btn-program-segment, .btn-program-actions{
+   font-size: 12px;
+   min-width: 100px;
+  }
+
+  .landing-banner-sm header{
+    font-size: 20px;
+  }
+
+  .landing-banner-sm-content{
+    padding: 15px 20px;
+  }
+
+
+  /* COMPONENTS */
+  .section-user-profile-slider .slick-current h4,
+  .section-user-profile-slider .slick-current span{
+    font-size: 22px;
+  }
+
+  .btn-scale-small{
+    zoom: .76;
+  }
+  
+}
